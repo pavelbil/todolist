@@ -233,7 +233,7 @@ class UserManager implements UserProviderInterface
 
     $queryBuilder = $this->conn->createQueryBuilder();
     $queryBuilder
-      ->insert('tasks')
+      ->insert($this->userTableName)
       ->values(
         array(
           'email' => '?',
