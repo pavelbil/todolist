@@ -1,0 +1,4 @@
+.idea
+web/node_modules
+App/config/config.php
+vendor

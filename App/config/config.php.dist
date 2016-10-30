@@ -1,0 +1,12 @@
+<?php
+
+$app['debug'] = false;
+
+$app['db.options'] = [
+  'driver' => 'pdo_mysql',
+  'dbname' => 'todo',
+  'host' => 'localhost',
+  'user' => 'root',
+  'password' => 'root',
+  'charset' => 'UTF8',
+];

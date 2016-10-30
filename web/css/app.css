@@ -1,0 +1,34 @@
+/*
+
+app-template.css overrides
+
+remove this comment if used
+remove this file if not
+
+*/
+
+
+body {
+  min-width: inherit;
+  max-width: inherit;
+}
+
+.todoapp {
+  min-width: 230px;
+  max-width: 550px;
+  float: none;
+  margin: 130px auto 40px auto;
+}
+
+.footer {
+  height: 41px;
+}
+
+input.toggle-all:focus,
+input.toggle:focus {
+  outline: none;
+}
+
+.view label {
+  font-weight: normal;
+}
